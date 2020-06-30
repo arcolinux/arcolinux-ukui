@@ -4,11 +4,11 @@ Version=1.0
 Type=Application
 Name=mate-daemon
 Comment=keyboard
-Exec=/usr/lib/mate-settings-daemon/mate-settings-daemon
-
 TryExec=/usr/lib/mate-settings-daemon/mate-settings-daemon
-
+Exec=/usr/lib/mate-settings-daemon/mate-settings-daemon
 StartupNotify=false
 X-GNOME-Autostart-enabled=true
+X-UKUI-Autostart-enabled=true
+X-MATE-Autostart-enabled=true
 Terminal=false
 Hidden=false
